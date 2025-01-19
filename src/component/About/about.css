@@ -1,0 +1,9 @@
+.glow {
+  text-shadow: 0 0 20px #ffffff94;
+}
+
+.pos {
+  position: relative;
+  top: 550px;
+  right: 10px;
+}
