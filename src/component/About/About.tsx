@@ -177,7 +177,7 @@ const About = () => {
             At TeraCores, we blend creativity and technology to deliver
             impactful web solutions. Our focus is on empowering businesses with
             user-centric designs and innovative digital experiences that drive
-            results.
+            result.
           </p>
         </div>
 
