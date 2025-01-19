@@ -1,6 +1,7 @@
 // src/components/nav/nav.tsx
 "use client";
 import "./nav.css"; // Import custom CSS for this component
+import Image from "next/image";
 
 import React, { useState } from "react";
 
@@ -36,7 +37,14 @@ const Nav = () => {
         {/* Left: Logo */}
         <div className="flex items-center space-x-3 rtl:space-x-reverse">
           <a href="https://teracores.com/">
-            <img src="/logowhite.svg" className="h-12" alt="Logo" />
+            {/* Use Image component for logo optimization */}
+            <Image
+              src="/logowhite.svg"
+              alt="Logo"
+              className="h-25 w-24"
+              width={48} // Specify width
+              height={48} // Specify height
+            />
           </a>
         </div>
 

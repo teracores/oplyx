@@ -96,7 +96,7 @@ const Service = () => {
               <h1 className="text-4xl max-w-md font-bold">
                 <span className="glow"> Innovative Solutions </span>
                 <br />
-                <span className="text-[#bdbdbd]">for Your Online Success</span>
+                <span className="text-[#797979]">for Your Online Success</span>
               </h1>
             </div>
           </div>
