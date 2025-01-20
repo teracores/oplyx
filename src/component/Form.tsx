@@ -93,7 +93,7 @@ const Form = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="text-white  px-4 py-2.5 rounded-2xl border-2 hover:text-black text-center"
+            className="text-white  px-4 py-2.5 rounded-2xl border-2 hover:bg-white hover:text-black text-center"
           >
             Submit
           </button>
