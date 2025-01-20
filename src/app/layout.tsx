@@ -7,6 +7,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { setCookie, getCookie } from "../utils/cookie"; // Adjust the path
 import "./globals.css";
 import Nav from "@/component/Nav/nav"; // Adjust the path
+import Footer from "@/component/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -71,7 +72,7 @@ export default function RootLayout({
           <div className="fixed bottom-4 left-4 w-80 bg-gradient-to-r from-[#1b1b1b] to-[#292929] border-2 border-[#353535] text-white p-4 rounded-lg z-50">
             <p className="text-sm">
               We use cookies for marketing and analytics purposes. By clicking
-              "Accept", you agree to the use of cookies.
+              &quot;Accept&quot;, you agree to the use of cookies.
             </p>
             <div className="flex space-x-4 mt-4">
               <button
@@ -91,6 +92,7 @@ export default function RootLayout({
         )}
 
         {children}
+        <Footer />
       </body>
     </html>
   );
