@@ -11,8 +11,8 @@ const Nav = () => {
   const toggleMenu = () => setIsOpen((prevState) => !prevState);
 
   const menuItems = [
-    { label: "Home", href: "#" },
-    { label: "About", href: "#" },
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
     { label: "Services", href: "#" },
     { label: "Pricing", href: "#" },
   ];
