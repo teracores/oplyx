@@ -40,7 +40,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="text-white p-4 bg-[#181818] pb-10 border-t-2 border-[#797979]">
+    <div className="text-white p-4 bg-[#181818] pb-10 border-t-2 border-[#797979]">
       <div className="md:flex justify-center gap-16 border-b-2 border-[#797979] border-opacity-30 pb-6">
         <div className="max-w-sm content-start">
           <Image
@@ -99,7 +99,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
