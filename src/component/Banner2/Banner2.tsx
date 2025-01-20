@@ -11,7 +11,7 @@ const Banner2 = () => {
     >
       <div className="text-white block max-w-lg m-4 top-6  relative md:right-64 md:top-24 justify-center bg-black p-10 bg-opacity-50 rounded-xl border-2 border-[#797979] border-opacity-35 ">
         <h1 className="text-4xl">
-          Ready to Start? Let's Build Something Great Together!
+          Ready to Start? Let&apos;s Build Something Great Together!
         </h1>
         <p>
           Maecenas tempor ligula phasellus per hac nisi. Facilisi curae nunc
