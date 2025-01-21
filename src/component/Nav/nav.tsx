@@ -8,7 +8,6 @@ import React, { useState } from "react";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Toggle the menu visibility
   const toggleMenu = () => setIsOpen((prevState) => !prevState);
 
   const menuItems = [
@@ -49,7 +48,7 @@ const Nav = () => {
         </div>
 
         {/* Center: Navbar Links (Desktop Only) */}
-        <div className="flex-1 hidden md:flex justify-center">
+        <div className="flex-1 hidden md:flex justify-center gap-5">
           <ul className="font-medium flex space-x-8 rtl:space-x-reverse">
             {renderMenuItems()}
           </ul>

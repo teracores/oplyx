@@ -7,7 +7,6 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// Define the testimonial type
 interface Testimonial {
   text: string;
   image: string;
