@@ -33,7 +33,7 @@ const Nav = () => {
 
   return (
     <nav className="bg-transparent backdrop-blur-md sticky top-0 z-50">
-      <div className="py-4 max-w-screen-xl flex items-center justify-between mx-auto p-4">
+      <div className=" max-w-screen-xl flex items-center justify-between mx-auto ">
         {/* Left: Logo */}
         <div className="flex items-center space-x-3 rtl:space-x-reverse">
           <a href="https://teracores.com/">
@@ -41,7 +41,7 @@ const Nav = () => {
             <Image
               src="/logowhite.svg"
               alt="Logo"
-              className="h-25 w-24"
+              className="h-24 w-24"
               width={48} // Specify width
               height={48} // Specify height
             />

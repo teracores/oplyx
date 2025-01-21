@@ -35,7 +35,7 @@ export default function RootLayout({
       setCookie("userVisited", "true", { expires: 365, path: "/" });
       setWelcomeMessage("Welcome to our website!");
     } else {
-      setWelcomeMessage("Welcome back!");
+      setWelcomeMessage("");
     }
 
     if (!cookiesAccepted) {
