@@ -7,7 +7,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { setCookie, getCookie } from "../utils/cookie"; // Adjust the path
 import "./globals.css";
 import Nav from "@/component/Nav/nav"; // Adjust the path
-import Footer from "@/component/Footer/Footer";
+import Footer from "@/component/footer/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

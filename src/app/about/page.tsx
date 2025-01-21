@@ -1,16 +1,14 @@
-import About from "@/component/About/About";
+import Aboutus from "@/component/About/AboutUS";
 import AboutHero from "@/component/AboutHero/AboutHero";
 import { Banner } from "@/component/Banner/Banner";
-import Teams from "@/component/Teams/Teams";
 import React from "react";
 
 const page = () => {
   return (
     <main>
       <AboutHero />
-      <About />
+      <Aboutus />
       <Banner />
-      <Teams />
     </main>
   );
 };

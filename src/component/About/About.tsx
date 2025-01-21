@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import Form from "@/component/Form";
 import "./about.css";
 
@@ -101,7 +100,7 @@ const About = () => {
             },
           ].map((item, index) => (
             <div key={index} className="justify-start block mt-10 md:mt-0">
-              <Image
+              <img
                 alt={item.title}
                 src={item.img}
                 width={60}
@@ -118,7 +117,7 @@ const About = () => {
           ))}
         </div>
         <div>
-          <Image
+          <img
             className="h-auto rounded-lg border-[#353535] mt-10 border-2"
             width={750}
             height={500}
