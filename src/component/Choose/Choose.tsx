@@ -58,22 +58,24 @@ const Choose = () => {
             lacinia tristique.
           </p>
         </div>
-        <div className="pb-10">
+        <div className="pb-10 mt-5">
           {choose.map((item: Choose) => (
             <div
-              className="flex gap-2 py-3 flex-col justify-center border-b border-white"
+              className="flex gap-2 py-3 flex-col justify-center border-b border-[#797979] border-opacity-30"
               key={item.id}
             >
               <span
                 onClick={() => handleToggle(item.id)}
-                className="flex items-center cursor-pointer gap-5"
+                className="flex items-center cursor-pointer gap-5 "
               >
-                <Tick />
-                <p>{item.title}</p>
+                <div className="text-[#797979]">
+                  <Tick />
+                </div>
+                <p className="text-[#797979] ">{item.title}</p>
               </span>
 
               <div
-                className={`overflow-hidden transition-all ease-linear duration-700 ${
+                className={`overflow-hidden transition-all ease-in-out duration-700 ${
                   toggledItems === item.id ? "max-h-48" : "max-h-0"
                 }`}
               >

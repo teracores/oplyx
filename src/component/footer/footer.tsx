@@ -8,7 +8,7 @@ import EmailIcon from "@/Icon/Email";
 const companyDescription =
   "TeraCores is a web design and development company offering innovative digital solutions. 'Tera' represents immense power, while 'Cores' signifies the core technologies driving modern experiences.";
 
-const Footer = () => {
+const footer = () => {
   const links = [
     { label: "Home", href: "" },
     { label: "About", href: "" },
@@ -103,4 +103,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default footer;
