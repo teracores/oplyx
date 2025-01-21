@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Form from "@/component/Form";
 import "./about.css";
+import Image from "next/image";
 
 // Custom hook for intersection observer
 const useIntersection = (callback: () => void) => {
@@ -100,7 +101,7 @@ const About = () => {
             },
           ].map((item, index) => (
             <div key={index} className="justify-start block mt-10 md:mt-0">
-              <img
+              <Image
                 alt={item.title}
                 src={item.img}
                 width={60}
@@ -117,7 +118,7 @@ const About = () => {
           ))}
         </div>
         <div>
-          <img
+          <Image
             className="h-auto rounded-lg border-[#353535] mt-10 border-2"
             width={750}
             height={500}
