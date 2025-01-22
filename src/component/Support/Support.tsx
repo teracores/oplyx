@@ -38,7 +38,10 @@ const Support = () => {
 
       <span className="relative mt-[-70px] flex sm:flex-row flex-col sm:gap-0 gap-10 justify-between mx-5">
         {SupportItem.map((item, index) => (
-          <div className="bg-[#242424] h-[320px] w-[395px] rounded-lg flex flex-col justify-center items-center gap-5">
+          <div
+            className="bg-[#242424] h-[320px] w-[395px] rounded-lg flex flex-col justify-center items-center gap-5"
+            key={index}
+          >
             <div className="bg-slate-600 h-20 w-20 rounded-full flex justify-center items-center text-white text-[30px]">
               {item.icon}
             </div>

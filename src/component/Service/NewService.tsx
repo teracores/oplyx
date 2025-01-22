@@ -122,6 +122,26 @@ const NewService = () => {
             </h1>
           </div>
         </div>
+
+        {showVideo && (
+          <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
+            <div className="relative w-full max-w-4xl aspect-video">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/YQHsXMglC9A"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+              <button
+                onClick={closeVideo}
+                className="absolute -top-16 -right-2 text-white hover:text-black bg-transparent border-2 border-[#797979] border-opacity-20 p-2 rounded-lg"
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       <ServiceCard />
