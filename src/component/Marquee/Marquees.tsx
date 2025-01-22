@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
@@ -42,7 +41,7 @@ const Marquees = () => {
       <Marquee gradient={false} speed={50} direction="left" pauseOnHover>
         {marqueeImage.map((image, index) => (
           <div key={index} className="px-[40px]">
-            <Image src={image.image} alt="marqueeImage" className="h-[50px]" />
+            <img src={image.image} alt="marqueeImage" className="h-[50px]" />
           </div>
         ))}
         {/* <div className="px-[40px]">
