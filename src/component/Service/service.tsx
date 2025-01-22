@@ -58,7 +58,7 @@ const Service = () => {
     <div className="block bg-no-repeat bg-center bg-contain max-h-full bg-hero-pattern">
       <div className="min-h-screen flex justify-center items-center">
         {/* Container for Image and Text */}
-        <div className="relative margin-top w-full md:w-2/3 height">
+        <div className="relative xl:margin-top w-full md:w-2/3 height">
           {/* Background Image */}
           <div
             className="absolute inset-0 bg-cover bg-center rounded-lg"
