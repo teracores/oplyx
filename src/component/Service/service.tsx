@@ -3,14 +3,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import "./service.css";
 
-// Define the type for the service card props
 interface ServiceCardProps {
   imageSrc: string;
   title: string;
   description: string;
 }
 
-// ServiceCard component to display each service
 const ServiceCard: React.FC<ServiceCardProps> = ({
   imageSrc,
   title,
@@ -42,7 +40,6 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   );
 };
 
-// Main Service component
 const Service = () => {
   const [showVideo, setShowVideo] = useState(false);
 
